@@ -9,7 +9,8 @@
     <title>Appointments</title>
   </head>
   <body>
-      <div class="container">
+      <!-- Input page -->
+      <div class="container container1">
         <h1>Come See Connor!</h1>
         <form id="appointment">
           <div class="name">
@@ -29,6 +30,37 @@
             <input id="time" class="form-control" type="text">
           </div>
           <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+      <!-- Confirmation -->
+      <div class="container container2">
+        <h1>Confirmation</h1>
+        <form id="appointment">
+          <div class="name">
+            <label for="name">First and last name:</label>
+            <p>
+              <span class="nameConfirm"></span>
+            </p>
+          </div>
+          <div class="description">
+            <label for="description">Why are you coming to see me?</label>
+            <p>
+              <span class="descriptionConfirm"></span>
+            </p>
+          </div>
+          <div class="date">
+            <label for="date">Appointment date:</label>
+            <p>
+              <span class="dateConfirm"></span>
+            </p>
+          </div>
+          <div class="time">
+            <label for="time">Beginning and end time:</label>
+            <p>
+              <span class="timeConfirm"></span>
+            </p>
+          </div>
+          <h2>See you soon!</h2>
         </form>
       </div>
   </body>
